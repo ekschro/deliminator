@@ -1,6 +1,6 @@
 {
   "name": "deliminator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Delimit your data...",
   "main": "lib/index.js",
   "scripts": {
@@ -22,5 +22,5 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/ekschro/deliminator"
-}
+  }
 }
