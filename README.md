@@ -1,3 +1,5 @@
+# Deliminator
+Node module for delimiting and parsing socket communicaton. 
 
 ```
     ___       ___       ___     ___       ___       ___       ___       ___      ___       ___       ___   
@@ -8,8 +10,6 @@
   \::/  /   \:\/  /   \:\__\  \:\__\     /:/  /   \:\__\     |:/  /    /:/  /  \/__/     \::/  /   |:\/__/ 
    \/__/     \/__/     \/__/   \/__/     \/__/     \/__/     \/__/     \/__/              \/__/     \|__|  
 ```
-# Deliminator
-Node module for delimiting and parsing socket communicaton. 
 
 ## Installation
 
