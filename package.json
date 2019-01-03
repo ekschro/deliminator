@@ -1,18 +1,26 @@
 {
   "name": "deliminator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Delimit your data...",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "./node_modules/jest/bin/jest.js"
   },
   "keywords": [],
-  "author": "Ericsson Schroeter <ekschro@protonmail.com>",
+  "author": "Ericsson Schroeter <ekschro@protonmail.com> (www.linkedin.com/in/ericsson-schroeter)",
   "license": "MIT",
   "dependencies": {
     "ramda": "^0.26.1"
   },
+  "bugs": {
+    "url": "https://github.com/ekschro/deliminator/issues"
+  },
   "devDependencies": {
     "jest": "^23.6.0"
-  }
+  },
+  "homepage": "https://github.com/ekschro/deliminator",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ekschro/deliminator"
+}
 }
