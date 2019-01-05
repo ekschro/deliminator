@@ -18,6 +18,7 @@ npm install deliminator
 ```
 
 ## Usage
+#### Functionality Examples
 ``` js
 const deliminator = require('deliminator');
 
@@ -43,6 +44,27 @@ d.diceAndTrim(recieved, leftOver);      /*
                                         } 
                                         */
 ```
+
+#### Socket Callbacks
+```js
+const topology = require('fully-connected-topology');
+const deliminator = require('deliminator');
+
+const t = topology(/* ... */);
+
+let waitingOn = '';
+
+t.on('connection', (socket) => {
+  socket.on('data', (data) => {
+    const dataStr = data.toString();
+    const { complete, pending } = delim.diceAndTrim(dataStr, waitingOn);
+    waitingOn = pending;
+    complete.map(JSON.parse).map(handleMsg);
+  });
+});
+```
+
+The example above shows how Deliminator can simplify handling communication between peers using packages like `fully-connected-topology`.
 
 ## API
 #### `const d = deliminator.create(str);`

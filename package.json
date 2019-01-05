@@ -1,12 +1,12 @@
 {
   "name": "deliminator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Delimit your data...",
   "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/jest/bin/jest.js"
   },
-  "keywords": [],
+  "keywords": ["sockets","socket","delimiting","delimit","node"],
   "author": "Ericsson Schroeter <ekschro@protonmail.com> (www.linkedin.com/in/ericsson-schroeter)",
   "license": "MIT",
   "dependencies": {
