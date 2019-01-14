@@ -52,13 +52,21 @@ const deliminator = require('deliminator');
 
 const t = topology(/* ... */);
 
+/* ... */
+
 let waitingOn = '';
 
 t.on('connection', (socket) => {
   socket.on('data', (data) => {
     const dataStr = data.toString();
+
+    // Seperate completed data from pending data
     const { complete, pending } = delim.diceAndTrim(dataStr, waitingOn);
+    
+    // Save pending data to be concatonated with future incoming data
     waitingOn = pending;
+
+    // Process completed data
     complete.map(JSON.parse).map(handleMsg);
   });
 });
