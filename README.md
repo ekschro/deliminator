@@ -63,7 +63,7 @@ t.on('connection', (socket) => {
     // Seperate completed data from pending data
     const { complete, pending } = delim.diceAndTrim(dataStr, waitingOn);
     
-    // Save pending data to be concatonated with future incoming data
+    // Save pending data to be concatenated with future incoming data
     waitingOn = pending;
 
     // Process completed data
