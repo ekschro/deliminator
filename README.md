@@ -89,7 +89,7 @@ Parses given string `str` based on the defined delimit string of the delimiter `
 
 #### `d.diceAndTrim(str, waitingOn);`
 
-Parses in the same way that `.dice()` does but returns an object instead of an array.  This object contains two properties: `complete` and `pending`.  The complete property contains an array of all completed (delimited) data from the given string `str`.  The pending property contains a string that is a concatonation of the given string `waitingOn` and any incomplete (undelimited) data, respectively.
+Parses in the same way that `.dice()` does but returns an object instead of an array.  This object contains two properties: `complete` and `pending`.  The complete property contains an array of all completed (delimited) data from the given strings `waitingOn` and `str` when concatenated, respectively.  The pending property contains a string of any incomplete (undelimited) data.
 
 ## License
 MIT
