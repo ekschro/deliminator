@@ -1,6 +1,6 @@
 {
   "name": "deliminator",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Delimit your data...",
   "main": "lib/index.js",
   "scripts": {
