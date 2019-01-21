@@ -61,14 +61,14 @@ test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!
         let delimitedData = '';
         let pending = 'incomplete';
 
-        delimitedData += d.delimit('hello');
+        delimitedData += d.delimit(' now completed');
         delimitedData += d.delimit('world');
         delimitedData += d.delimit('!'); 
 
         expect(d.diceAndTrim(delimitedData, pending))
             .toEqual({
-                complete: ["hello", "world", "!"],
-                pending: 'incomplete'
+                complete: ["incomplete now completed", "world", "!"],
+                pending: ''
             });
     }
 );
@@ -80,15 +80,15 @@ test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!
         let delimitedData = '';
         let pending = 'incomplete';
 
-        delimitedData += d.delimit('hello');
+        delimitedData += d.delimit(' hello');
         delimitedData += d.delimit('world');
         delimitedData += d.delimit('!');
-        delimitedData += ' data';
+        delimitedData += 'more incomplete data';
 
         expect(d.diceAndTrim(delimitedData, pending))
             .toEqual({
-                complete: ["hello", "world", "!"],
-                pending: 'incomplete data'
+                complete: ["incomplete hello", "world", "!"],
+                pending: 'more incomplete data'
             });
     }
 );
