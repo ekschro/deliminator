@@ -34,7 +34,7 @@ const diceAndTrimData = curry(
 
 const diceAndTrimDataAsync = curry(
     (delimiter, data, chunks) => diceDataAsync(delimiter, `${chunks}${data}`).then(trimDataAsync).catch(console.log)
-    );
+);
 
 const create = delimiter => ({
     delimit: delimData(delimiter),
