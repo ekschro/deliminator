@@ -1,7 +1,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][downloads-url]
 [![License][license-image]][license-url]
-[![Build Status](https://travis-ci.org/ekschro/deliminator.svg?branch=master)](https://travis-ci.org/ekschro/deliminator)
+[![Build Status][build-status-image]][build-status-url]
 
 # Deliminator
 Node module for delimiting and parsing socket communicaton. 
@@ -113,3 +113,5 @@ MIT © Ericsson Schroeter
 [license-url]: https://www.npmjs.com/package/deliminator
 [downloads-image]: https://img.shields.io/npm/dt/deliminator.svg?style=for-the-badge
 [downloads-url]: https://www.npmjs.com/package/deliminator
+[build-status-image]: https://travis-ci.org/ekschro/deliminator.svg?branch=master&style=for-the-badge
+[build-status-url]: https://travis-ci.org/ekschro/deliminator
