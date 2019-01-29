@@ -113,5 +113,5 @@ MIT © Ericsson Schroeter
 [license-url]: https://www.npmjs.com/package/deliminator
 [downloads-image]: https://img.shields.io/npm/dt/deliminator.svg?style=for-the-badge
 [downloads-url]: https://www.npmjs.com/package/deliminator
-[build-status-image]: https://travis-ci.org/ekschro/deliminator.svg?branch=master&style=for-the-badge
+[build-status-image]: https://img.shields.io/travis/com/ekschro/deliminator/master.svg?style=for-the-badge
 [build-status-url]: https://travis-ci.org/ekschro/deliminator
