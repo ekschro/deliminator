@@ -3,6 +3,7 @@
 [![License][license-image]][license-url]
 [![Build Status][build-status-image]][build-status-url]
 ![Dependencies Status][david-image]
+[![Maintainability][code-climate-image]][code-climate-url]
 
 # Deliminator
 Node module for delimiting and parsing socket communicaton. 
@@ -121,3 +122,5 @@ Copyright © 2019, [Ericsson Schroeter](https://github.com/ekschro). Released un
 [build-status-image]: https://travis-ci.org/ekschro/deliminator.svg?branch=master
 [build-status-url]: https://travis-ci.org/ekschro/deliminator
 [david-image]: https://img.shields.io/david/ekschro/deliminator.svg
+[code-climate-url]: https://codeclimate.com/github/ekschro/deliminator/maintainability
+[code-climate-image]: https://api.codeclimate.com/v1/badges/78baced79207578bba1a/maintainability
