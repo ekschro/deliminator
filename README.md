@@ -1,4 +1,4 @@
-# Deliminator [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url] [![License][license-image]][license-url] [![Build Status][build-status-image]][build-status-url] [![Dependencies Status][david-image]]
+# Deliminator [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url] [![License][license-image]][license-url] [![Build Status][build-status-image]][build-status-url] ![Dependencies Status][david-image]
 Node module for delimiting and parsing socket communicaton. 
 
 ```
