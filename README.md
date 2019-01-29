@@ -106,7 +106,7 @@ In the case that you created an asynchronous delimiter object, the results descr
 ## License
 MIT © Ericsson Schroeter
 
-[npm-image]: https://img.shields.io/npm/v/deliminator.svg?colorB=red&style=for-the-badge
+[npm-image]: https://img.shields.io/npm/v/deliminator.svg?style=for-the-badge
 [npm-url]: https://www.npmjs.com/package/deliminator
 [license-image]: https://img.shields.io/npm/l/deliminator.svg?style=for-the-badge
 [license-url]: https://www.npmjs.com/package/deliminator
