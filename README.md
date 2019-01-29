@@ -1,3 +1,7 @@
+[![NPM version][npm-image]][npm-url]
+[![Downloads][downloads-image]][downloads-url]
+[![License][license-image]][license-url]
+
 # Deliminator
 Node module for delimiting and parsing socket communicaton. 
 
@@ -101,3 +105,10 @@ In the case that you created an asynchronous delimiter object, the results descr
 
 ## License
 MIT © Ericsson Schroeter
+
+[npm-image]: https://img.shields.io/npm/v/deliminator.svg?colorB=red&style=for-the-badge
+[npm-url]: https://www.npmjs.com/package/deliminator
+[license-image]: https://img.shields.io/npm/l/deliminator.svg?style=for-the-badge
+[license-url]: https://www.npmjs.com/package/deliminator
+[downloads-image]: https://img.shields.io/npm/dt/deliminator.svg?style=for-the-badge
+[downloads-url]: https://www.npmjs.com/package/deliminator
