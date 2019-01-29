@@ -104,8 +104,12 @@ Parses in the same way that `.dice()` does but returns an object instead of an a
 
 In the case that you created an asynchronous delimiter object, the results described above will come wrapped in a promise.
 
+## Author
+GitHub:  [@ekschro](https://github.com/ekschro)
+LinkedIn: [Ericsson Schroeter](www.linkedin.com/in/ericsson-schroeter)
+
 ## License
-MIT © Ericsson Schroeter
+Copyright © 2018, [Ericsson Schroeter](https://github.com/ekschro). Released under the [MIT License](LICENSE).
 
 [npm-image]: https://img.shields.io/npm/v/deliminator.svg?
 [npm-url]: https://www.npmjs.com/package/deliminator
