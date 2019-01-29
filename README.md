@@ -1,6 +1,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][downloads-url]
 [![License][license-image]][license-url]
+[![Build Status](https://travis-ci.org/ekschro/deliminator.svg?branch=master)](https://travis-ci.org/ekschro/deliminator)
 
 # Deliminator
 Node module for delimiting and parsing socket communicaton. 
