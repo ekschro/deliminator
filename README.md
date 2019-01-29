@@ -107,11 +107,11 @@ In the case that you created an asynchronous delimiter object, the results descr
 ## License
 MIT © Ericsson Schroeter
 
-[npm-image]: https://img.shields.io/npm/v/deliminator.svg?style=for-the-badge
+[npm-image]: https://img.shields.io/npm/v/deliminator.svg?
 [npm-url]: https://www.npmjs.com/package/deliminator
-[license-image]: https://img.shields.io/npm/l/deliminator.svg?style=for-the-badge
+[license-image]: https://img.shields.io/npm/l/deliminator.svg?
 [license-url]: https://www.npmjs.com/package/deliminator
-[downloads-image]: https://img.shields.io/npm/dt/deliminator.svg?style=for-the-badge
+[downloads-image]: https://img.shields.io/npm/dt/deliminator.svg?
 [downloads-url]: https://www.npmjs.com/package/deliminator
-[build-status-image]: https://travis-ci.org/ekschro/deliminator.svg?branch=master&style=for-the-badge
+[build-status-image]: https://travis-ci.org/ekschro/deliminator.svg?branch=master
 [build-status-url]: https://travis-ci.org/ekschro/deliminator
