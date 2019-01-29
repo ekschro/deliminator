@@ -1,4 +1,4 @@
-# Deliminator [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url] [![License][license-image]][license-url] [![Build Status][build-status-image]][build-status-url]
+# Deliminator [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url] [![License][license-image]][license-url] [![Build Status][build-status-image]][build-status-url] [![Dependencies Status][david-image]]
 Node module for delimiting and parsing socket communicaton. 
 
 ```
@@ -114,3 +114,4 @@ Copyright © 2019, [Ericsson Schroeter](https://github.com/ekschro). Released un
 [downloads-url]: https://www.npmjs.com/package/deliminator
 [build-status-image]: https://travis-ci.org/ekschro/deliminator.svg?branch=master
 [build-status-url]: https://travis-ci.org/ekschro/deliminator
+[david-image]: https://img.shields.io/david/ekschro/deliminator.svg
