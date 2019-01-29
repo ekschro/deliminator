@@ -4,7 +4,7 @@
   "description": "Delimit your data...",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/jest/bin/jest.js"
+    "test": "./node_modules/jest/bin/jest.js ./__test__/*"
   },
   "keywords": [
     "sockets",
