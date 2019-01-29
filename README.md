@@ -109,7 +109,7 @@ GitHub:  [@ekschro](https://github.com/ekschro)
 LinkedIn: [Ericsson Schroeter](www.linkedin.com/in/ericsson-schroeter)
 
 ## License
-Copyright © 2018, [Ericsson Schroeter](https://github.com/ekschro). Released under the [MIT License](LICENSE).
+Copyright © 2019, [Ericsson Schroeter](https://github.com/ekschro). Released under the [MIT License](LICENSE).
 
 [npm-image]: https://img.shields.io/npm/v/deliminator.svg?
 [npm-url]: https://www.npmjs.com/package/deliminator
