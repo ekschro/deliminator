@@ -1,9 +1,4 @@
-[![NPM version][npm-image]][npm-url]
-[![Downloads][downloads-image]][downloads-url]
-[![License][license-image]][license-url]
-[![Build Status][build-status-image]][build-status-url]
-
-# Deliminator
+# Deliminator [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][downloads-url] [![License][license-image]][license-url] [![Build Status][build-status-image]][build-status-url]
 Node module for delimiting and parsing socket communicaton. 
 
 ```
@@ -104,8 +99,8 @@ Parses in the same way that `.dice()` does but returns an object instead of an a
 
 In the case that you created an asynchronous delimiter object, the results described above will come wrapped in a promise.
 
-## Author
-GitHub:  [@ekschro](https://github.com/ekschro)
+## Author 
+[@ekschro](https://github.com/ekschro)
 LinkedIn: [Ericsson Schroeter](www.linkedin.com/in/ericsson-schroeter)
 
 ## License
