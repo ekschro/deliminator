@@ -18,41 +18,46 @@ Node module for delimiting and parsing socket communicaton.
    \/__/     \/__/     \/__/   \/__/     \/__/     \/__/     \/__/     \/__/              \/__/     \|__|  
 ```
 
-## Installation
+## Features 🔥
+- **One dependency**, Ramda, for "practical functional" goodness.
+- **Asynchronous and Synchronous** options.
+- Builds for **Node.js 6,8,9,10,11** and beyond
+
+## Installation 🔧
 
 ```
 npm install deliminator
 ```
 
-## Usage
+## Usage 📦
 #### Functionality Examples
 ``` js
 const deliminator = require('deliminator');
 
-const d = deliminator.create(';;;');    // Create a delimiter
+const d = deliminator.create(';;;');  // Create a delimiter
 
 let recieved = '';
 
-recieved += d.delimit('Hello, ');       // 'Hello, ;;;'
-recieved += d.delimit('World!');        // 'Hello, ;;;World!;;;'
+recieved += d.delimit('Hello, ');     // 'Hello, ;;;'
+recieved += d.delimit('World!');      // 'Hello, ;;;World!;;;'
 
-d.dice(recieved);                       // ['Hello, ', 'World!', '']
+d.dice(recieved);                     // ['Hello, ', 'World!', '']
 
-recieved += 'incomplete data';          // Undelimited data
+recieved += 'incomplete data';        // Undelimited data
 
-d.dice(recieved);                       // ['Hello, ', 'World!', 'incomplete data']
+d.dice(recieved);                     // ['Hello, ', 'World!', 'incomplete data']
 
 let leftOver = '';
 
-d.diceAndTrim(recieved, leftOver);      /* 
-                                        {
-                                            complete: ['Hello, ', 'World!'], 
-                                            pending: 'incomplete data'
-                                        } 
-                                        */
+d.diceAndTrim(recieved, leftOver);    /* 
+                                      {
+                                          complete: ['Hello, ', 'World!'], 
+                                          pending: 'incomplete data'
+                                      } 
+                                      */
 ```
 
-#### Socket Callbacks
+#### Socket Callbacks 🔌
 ```js
 const topology = require('fully-connected-topology');
 const deliminator = require('deliminator');
@@ -81,7 +86,7 @@ t.on('connection', (socket) => {
 
 The example above shows how Deliminator can simplify handling communication between peers using packages like `fully-connected-topology`.
 
-## API
+## API 🎛
 #### `const d = deliminator.create(str);`
 
 Creates and returns a new delimiter object. The string used as a delimiter is specifed by the parameter `str`.
@@ -106,11 +111,11 @@ Parses in the same way that `.dice()` does but returns an object instead of an a
 
 In the case that you created an asynchronous delimiter object, the results described above will come wrapped in a promise.
 
-## Author 
+## Author ☕️
 [@ekschro](https://github.com/ekschro)
 LinkedIn: [Ericsson Schroeter](www.linkedin.com/in/ericsson-schroeter)
 
-## License
+## License 🔑
 Copyright © 2019, [Ericsson Schroeter](https://github.com/ekschro). Released under the [MIT License](LICENSE).
 
 [npm-image]: https://img.shields.io/npm/v/deliminator.svg?
