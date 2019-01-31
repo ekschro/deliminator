@@ -113,7 +113,6 @@ In the case that you created an asynchronous delimiter object, the results descr
 
 ## Author ☕️
 #### [@ekschro](https://github.com/ekschro)
-#### LinkedIn: ![Ericsson Schroeter](www.linkedin.com/in/ericsson-schroeter)
 
 ## License 🔑
 Copyright © 2019, [Ericsson Schroeter](https://github.com/ekschro). Released under the [MIT License](LICENSE).
