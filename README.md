@@ -112,8 +112,8 @@ Parses in the same way that `.dice()` does but returns an object instead of an a
 In the case that you created an asynchronous delimiter object, the results described above will come wrapped in a promise.
 
 ## Author ☕️
-[@ekschro](https://github.com/ekschro)
-LinkedIn: [Ericsson Schroeter](www.linkedin.com/in/ericsson-schroeter)
+#### [@ekschro](https://github.com/ekschro)
+#### LinkedIn: [Ericsson Schroeter](www.linkedin.com/in/ericsson-schroeter)
 
 ## License 🔑
 Copyright © 2019, [Ericsson Schroeter](https://github.com/ekschro). Released under the [MIT License](LICENSE).
