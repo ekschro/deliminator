@@ -4,7 +4,8 @@
   "description": "Delimit your data...",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/jest/bin/jest.js ./__test__/*"
+    "test": "./node_modules/jest/bin/jest.js ./__test__/*",
+    "lint": "./node_modules/eslint/bin/eslint.js"
   },
   "keywords": [
     "sockets",
@@ -22,9 +23,9 @@
     "url": "https://github.com/ekschro/deliminator/issues"
   },
   "devDependencies": {
-    "eslint": "^5.12.1",
+    "eslint": "^5.13.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-import": "^2.16.0",
     "jest": "^23.6.0"
   },
   "homepage": "https://github.com/ekschro/deliminator",
