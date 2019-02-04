@@ -19,8 +19,8 @@ Node module for delimiting and parsing delimited fields...
 ```
 
 ## Features 🔥
-- **One dependency**, Ramda, for "practical functional" goodness.
-- **Asynchronous and Synchronous** options.
+- **One dependency**, Ramda, for "practical functional" goodness
+- **Asynchronous and Synchronous** options
 - Builds for **Node.js 6,8,9,10,11** and beyond
 
 ## Installation 🔧
