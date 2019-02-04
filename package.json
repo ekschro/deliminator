@@ -12,7 +12,11 @@
     "socket",
     "delimiting",
     "delimit",
-    "node"
+    "node",
+    "deliminator",
+    "strings",
+    "parse",
+    "fields"
   ],
   "author": "Ericsson Schroeter <ekschro@protonmail.com> (www.linkedin.com/in/ericsson-schroeter)",
   "license": "MIT",
