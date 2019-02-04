@@ -85,7 +85,36 @@ t.on('connection', (socket) => {
 });
 ```
 
-The example above shows how Deliminator can simplify handling communication between peers using packages like `fully-connected-topology`.
+The example above shows how Deliminator can simplify handling communication between peers using packages like `fully-connected-topology`.  You could also do this in an asynchronous manner using `createAsync` like in the example below.
+
+```js
+const topology = require('fully-connected-topology');
+const deliminator = require('deliminator');
+
+const t = topology(/* ... */);
+const delim = deliminator.createAsync(';');
+
+/* ... */
+
+let waitingOn = '';
+
+t.on('connection', (socket) => {
+  socket.on('data', (data) => {
+    const dataStr = data.toString();
+
+    // Separate completed data from pending data
+    delim.diceAndTrim(dataStr, waitingOn).then(res => {
+      const { complete, pending } = res;
+      
+      // Save pending data to be concatenated with future incoming data
+      waitingOn = pending;
+
+      // Process completed data
+      complete.map(JSON.parse).map(handleMsg);
+    });
+  });
+});
+```
 
 ## API 🎛
 #### `const d = deliminator.create(str);`
