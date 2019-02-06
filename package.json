@@ -20,6 +20,9 @@
   ],
   "author": "Ericsson Schroeter <ekschro@protonmail.com> (www.linkedin.com/in/ericsson-schroeter)",
   "license": "MIT",
+  "files": [
+    "lib/index.js"
+],
   "dependencies": {
     "ramda": "^0.26.1"
   },
