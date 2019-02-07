@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/jest/bin/jest.js ./__test__/*",
-    "lint": "./node_modules/eslint/bin/eslint.js"
+    "lint": "./node_modules/eslint/bin/eslint.js",
+    "cl-update": "git log --pretty=format:'<li> <a href=\"http://github.com/ekschro/deliminator/commit/%H\">view commit &bull;</a> %s</li> ' --reverse | grep -v Merge > CHANGELOG.md"
   },
   "keywords": [
     "sockets",
