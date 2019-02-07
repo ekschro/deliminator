@@ -71,3 +71,7 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/ce5d6c0c15de221519904801724b0d83aa5550c0">view commit &bull;</a> Added files property to package.json.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/209b8845c095cdf89e34e6628dcb584f6e1f9871">view commit &bull;</a> Added test coverage.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/b92c835b5d1ccb654f7c6af76192c389b987bc80">view commit &bull;</a> Added CHANGELOG generation script to package.json.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/53d5362e1df795e4e63f53bacad52988f428560f">view commit &bull;</a> Updated CHANGELOG.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/521350cd7fdb4c6d3bb750fb039b1156280b1862">view commit &bull;</a> 2.0.7</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/7740b6043bac8ef79c9a880e869021acb8db2abd">view commit &bull;</a> Added .npmignore and .gitattributes.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/4a9030ba758a8496275491950de54acf5c81cfd9">view commit &bull;</a> 2.0.8</li> 
