@@ -75,3 +75,5 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/521350cd7fdb4c6d3bb750fb039b1156280b1862">view commit &bull;</a> 2.0.7</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/7740b6043bac8ef79c9a880e869021acb8db2abd">view commit &bull;</a> Added .npmignore and .gitattributes.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/4a9030ba758a8496275491950de54acf5c81cfd9">view commit &bull;</a> 2.0.8</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/462ad6f99bc04af377e4fb73caefdd6b43cc58b1">view commit &bull;</a> 2.0.8</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/7fbadc8f83e6493a5e46ca374fab39d3790652db">view commit &bull;</a> Configuring travi-ci to connect with code climate.</li> 
