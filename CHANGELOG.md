@@ -77,3 +77,6 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/4a9030ba758a8496275491950de54acf5c81cfd9">view commit &bull;</a> 2.0.8</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/462ad6f99bc04af377e4fb73caefdd6b43cc58b1">view commit &bull;</a> 2.0.8</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/7fbadc8f83e6493a5e46ca374fab39d3790652db">view commit &bull;</a> Configuring travi-ci to connect with code climate.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/7f29f9145f147cdf92faa8e990d387de0950f878">view commit &bull;</a> Change log.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/9175a0636e5786000c0cbc635b781f139d68f2b5">view commit &bull;</a> Travis-CI</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/6982d4df93fee784a3e9d5e71a74636f8e8855cf">view commit &bull;</a> 2.0.9</li> 
