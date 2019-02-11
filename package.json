@@ -4,9 +4,9 @@
   "description": "Delimit your data...",
   "main": "lib/index.js",
   "scripts": {
-    "test": "npx jest --config jest.config.js",
+    "test": "./node-module/jest/bin/jest.js --config jest.config.js",
     "lint": "./node_modules/eslint/bin/eslint.js",
-    "codecov": "npx codecov --token=\"67668c40-5b24-4f3e-8fe6-319be2c75eab\"",
+    "codecov": "./node_module/codecov/bin/codecov.js --token=\"67668c40-5b24-4f3e-8fe6-319be2c75eab\"",
     "cl-update": "git log --pretty=format:'<li> <a href=\"http://github.com/ekschro/deliminator/commit/%H\">view commit &bull;</a> %s</li> ' --reverse | grep -v Merge > CHANGELOG.md"
   },
   "keywords": [
