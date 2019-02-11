@@ -80,3 +80,11 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/7f29f9145f147cdf92faa8e990d387de0950f878">view commit &bull;</a> Change log.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/9175a0636e5786000c0cbc635b781f139d68f2b5">view commit &bull;</a> Travis-CI</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/6982d4df93fee784a3e9d5e71a74636f8e8855cf">view commit &bull;</a> 2.0.9</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/026aeecf55cb183026e38747a8682ecb6dc21e58">view commit &bull;</a> 2.0.9</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/fda2aba2f172f06fd86084c6307c35bc5568f4f0">view commit &bull;</a> Codecov added.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/97a06f9cbfedb3676b07d9162601c334c94a25fa">view commit &bull;</a> Added codecov badge.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/a13d74d636c04edc5263b76c9497ee199447de03">view commit &bull;</a> Updated travis.yml.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/f643aef7486db3df373005df37a8dbde0433c4e1">view commit &bull;</a> Updated travis.yml.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/fe530b04fe79cc298ef18157a87193ca43f8c6d4">view commit &bull;</a> Fixed codecov/travis error.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/124ba7d50ddde52f062d6a131e198faa96c6cf0a">view commit &bull;</a> Fixed codecov/travis error.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/2735e10fceec4d530ba285f7e71432693c7df820">view commit &bull;</a> 2.0.10</li> 
