@@ -9,14 +9,8 @@ node_js:
     - "9"
     - "10"
     - "11"
-before_script:
-    - npm i -g jest
-    - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-    - chmod +x ./cc-test-reporter
-    - ./cc-test-reporter before-build
-
+install:
+    - npm install -g codecov
 script:
-    - jest ./__test__/*
-
-after_script:
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+  - jest
+  - codecov
