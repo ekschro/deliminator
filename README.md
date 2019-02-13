@@ -81,7 +81,7 @@ t.on('connection', (socket) => {
     waitingOn = pending;
 
     // Process completed data
-    complete.map(JSON.parse).map(handleMsg);
+    complete.map(handleMsg);
   });
 });
 ```
@@ -111,7 +111,7 @@ t.on('connection', (socket) => {
       waitingOn = pending;
 
       // Process completed data
-      complete.map(JSON.parse).map(handleMsg);
+      complete.map(handleMsg);
     });
   });
 });
