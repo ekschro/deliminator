@@ -91,3 +91,6 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/6dfc54b13fbc6d7023252f330b6f7d79dcd1d869">view commit &bull;</a> Update CHANGELOG.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/0b476be21e4b5b3530ec42ee56a7d7496b0f5f3d">view commit &bull;</a> Updated README examples.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/c37f9ac5170c3f2c78d6335163bbd9ed0beb0ea7">view commit &bull;</a> 2.0.11</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/5aff9e70423a5c9b3ecbb2c0b894d192e959ea31">view commit &bull;</a> Updated CHANGELOG.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/00d1af7d4c092d4f4e245111317d913121becb6a">view commit &bull;</a> Updated packages.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/f2cacd9865a9c068423fef833c6d9c5bb19438ea">view commit &bull;</a> 2.0.12</li> 
