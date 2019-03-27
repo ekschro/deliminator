@@ -4,7 +4,7 @@
   "description": "Delimit your data...",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node-module/jest/bin/jest.js --config jest.config.js",
+    "test": "./node_modules/jest/bin/jest.js --config jest.config.js",
     "lint": "./node_modules/eslint/bin/eslint.js",
     "cl-update": "git log --pretty=format:'<li> <a href=\"http://github.com/ekschro/deliminator/commit/%H\">view commit &bull;</a> %s</li> ' --reverse | grep -v Merge > CHANGELOG.md"
   },
@@ -32,10 +32,10 @@
   },
   "devDependencies": {
     "codecov": "^3.2.0",
-    "eslint": "^5.13.0",
+    "eslint": "^5.15.3",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
-    "jest": "^23.6.0"
+    "jest": "^24.5.0"
   },
   "homepage": "https://github.com/ekschro/deliminator",
   "repository": {
