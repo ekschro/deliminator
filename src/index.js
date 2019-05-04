@@ -1,19 +1,12 @@
 const { curry } = require('ramda');
 
-const delimData = curry(
-  (delimiter, data) => `${data}${delimiter}`,
-);
+const delimData = curry((delimiter, data) => `${data}${delimiter}`);
 
-const diceData = curry(
-  (delimiter, data) => data.split(delimiter),
-);
+const diceData = curry((delimiter, data) => data.split(delimiter));
 
 const diceDataAsync = curry(async (delimiter, data) => data.split(delimiter));
 
-const trimData = arr => ({
-  complete: arr.slice(0, arr.length - 1),
-  pending: arr[arr.length - 1],
-});
+const trimData = arr => ({ complete: arr.slice(0, arr.length - 1), pending: arr[arr.length - 1] });
 
 const trimDataAsync = async arr => trimData(arr);
 
@@ -23,14 +16,9 @@ const diceAndTrimData = curry(
 
 const diceAndTrimDataAsync = curry(
   async (delimiter, data, chunks) => {
-    try {
-      const diced = await diceDataAsync(delimiter, `${chunks}${data}`);
-      return trimDataAsync(diced);
-    }
-    catch (err) {
-      return;
-    }
-  },
+    const diced = await diceDataAsync(delimiter, `${chunks}${data}`);
+    return trimDataAsync(diced);
+  }
 );
 
 const create = delimiter => ({
