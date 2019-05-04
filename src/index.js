@@ -15,10 +15,7 @@ const trimData = arr => ({
   pending: arr[arr.length - 1],
 });
 
-const trimDataAsync = async arr => ({
-  complete: arr.slice(0, arr.length - 1),
-  pending: arr[arr.length - 1],
-});
+const trimDataAsync = async arr => trimData(arr);
 
 const diceAndTrimData = curry(
   (delimiter, data, chunks) => trimData(diceData(delimiter, `${chunks}${data}`)),
