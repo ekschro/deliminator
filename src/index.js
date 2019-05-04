@@ -8,20 +8,16 @@ const diceData = curry(
   (delimiter, data) => data.split(delimiter),
 );
 
-const diceDataAsync = curry((delimiter, data) => new Promise((resolve) => {
-  resolve(data.split(delimiter));
-}));
+const diceDataAsync = curry(async (delimiter, data) => data.split(delimiter));
 
 const trimData = arr => ({
   complete: arr.slice(0, arr.length - 1),
   pending: arr[arr.length - 1],
 });
 
-const trimDataAsync = arr => new Promise((resolve) => {
-  resolve({
-    complete: arr.slice(0, arr.length - 1),
-    pending: arr[arr.length - 1],
-  });
+const trimDataAsync = async arr => ({
+  complete: arr.slice(0, arr.length - 1),
+  pending: arr[arr.length - 1],
 });
 
 const diceAndTrimData = curry(
@@ -29,7 +25,15 @@ const diceAndTrimData = curry(
 );
 
 const diceAndTrimDataAsync = curry(
-  (delimiter, data, chunks) => diceDataAsync(delimiter, `${chunks}${data}`).then(trimDataAsync).catch(err => err),
+  async (delimiter, data, chunks) => {
+    try {
+      const diced = await diceDataAsync(delimiter, `${chunks}${data}`);
+      return trimDataAsync(diced);
+    }
+    catch (err) {
+      return;
+    }
+  },
 );
 
 const create = delimiter => ({
