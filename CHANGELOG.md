@@ -95,4 +95,8 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/00d1af7d4c092d4f4e245111317d913121becb6a">view commit &bull;</a> Updated packages.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/f2cacd9865a9c068423fef833c6d9c5bb19438ea">view commit &bull;</a> 2.0.12</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/e49dcbb05da1ccdf0c457e2348a89757591bb3a8">view commit &bull;</a> Updated CHANGELOG.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/366c4251412dffe6730d7d3bc8f4ac6d76f0e38a">view commit &bull;</a> Update issue templates</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/74f5bda671b33661a98aa1ff736cfb3d4e58b0d4">view commit &bull;</a> 2.0.13</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/c3cf4ec0b7bc5491e0d1f66c35ffa351f3498d30">view commit &bull;</a> Audited and fixed all package vulnerabilities.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/137286a16928f293596a2e99748d11d1874a196d">view commit &bull;</a> 2.1.0</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/6a1b4587a4963138441d7e21975831a937565b44">view commit &bull;</a> Async example now shows use of async/await instead of .then() promise handling.</li> 
