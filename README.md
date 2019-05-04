@@ -100,19 +100,17 @@ const delim = deliminator.createAsync(';');
 let waitingOn = '';
 
 t.on('connection', (socket) => {
-  socket.on('data', (data) => {
+  socket.on('data', async (data) => {
     const dataStr = data.toString();
 
     // Separate completed data from pending data
-    delim.diceAndTrim(dataStr, waitingOn).then(res => {
-      const { complete, pending } = res;
+    const { complete, pending } = await delim.diceAndTrim(dataStr, waitingOn);
       
-      // Save pending data to be concatenated with future incoming data
-      waitingOn = pending;
+    // Save pending data to be concatenated with future incoming data
+    waitingOn = pending;
 
-      // Process completed data
-      complete.map(handleMsg);
-    });
+    // Process completed data
+    complete.map(handleMsg);
   });
 });
 ```
