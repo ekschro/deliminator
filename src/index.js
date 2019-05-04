@@ -1,35 +1,24 @@
 const { curry } = require('ramda');
 
-const delimData = curry(
-  (delimiter, data) => `${data}${delimiter}`,
-);
+const delimData = curry((delimiter, data) => `${data}${delimiter}`);
 
-const diceData = curry(
-  (delimiter, data) => data.split(delimiter),
-);
+const diceData = curry((delimiter, data) => data.split(delimiter));
 
-const diceDataAsync = curry((delimiter, data) => new Promise((resolve) => {
-  resolve(data.split(delimiter));
-}));
+const diceDataAsync = curry(async (delimiter, data) => data.split(delimiter));
 
-const trimData = arr => ({
-  complete: arr.slice(0, arr.length - 1),
-  pending: arr[arr.length - 1],
-});
+const trimData = arr => ({ complete: arr.slice(0, arr.length - 1), pending: arr[arr.length - 1] });
 
-const trimDataAsync = arr => new Promise((resolve) => {
-  resolve({
-    complete: arr.slice(0, arr.length - 1),
-    pending: arr[arr.length - 1],
-  });
-});
+const trimDataAsync = async arr => trimData(arr);
 
 const diceAndTrimData = curry(
   (delimiter, data, chunks) => trimData(diceData(delimiter, `${chunks}${data}`)),
 );
 
 const diceAndTrimDataAsync = curry(
-  (delimiter, data, chunks) => diceDataAsync(delimiter, `${chunks}${data}`).then(trimDataAsync).catch(err => err),
+  async (delimiter, data, chunks) => {
+    const diced = await diceDataAsync(delimiter, `${chunks}${data}`);
+    return trimDataAsync(diced);
+  }
 );
 
 const create = delimiter => ({
