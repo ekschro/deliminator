@@ -100,3 +100,11 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/c3cf4ec0b7bc5491e0d1f66c35ffa351f3498d30">view commit &bull;</a> Audited and fixed all package vulnerabilities.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/137286a16928f293596a2e99748d11d1874a196d">view commit &bull;</a> 2.1.0</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/6a1b4587a4963138441d7e21975831a937565b44">view commit &bull;</a> Async example now shows use of async/await instead of .then() promise handling.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/ff64b6447c7e1563b6a309a57543cc106d852f09">view commit &bull;</a> CHANGELOG update.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/da3b5f883db9862cedc2f769c4f18dd197707664">view commit &bull;</a> .then() => async/await</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/6ba6533d5450d81f43eb04e4a263370e41ee5160">view commit &bull;</a> Optimized according to travis and codecov suggestions.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/08cae52e4208085c306b113740b07bc386ddcca5">view commit &bull;</a> Remove Node 6 support.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/a8b506e4beee1c46c4ade3f93591b4da2ae70b51">view commit &bull;</a> Optimized for line coverage.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/b48b4fb29676c9e9038644903dbfd3c39ce243d5">view commit &bull;</a> 3.0.0</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/afdc444c31931837962084ffaa4e85afea741ce8">view commit &bull;</a> Added Package quality sheild.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/3e309a82ad20d84ae4881db87e2fb694c9f2d854">view commit &bull;</a> 3.0.1</li> 
