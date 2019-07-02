@@ -5,6 +5,7 @@
 ![Dependencies Status][david-image]
 [![Maintainability][code-climate-image]][code-climate-url]
 [![Codecov][codecov-image]][codecov-url]
+[![Package Quality][package-quality-image]][package-quality-url]
 
 # Deliminator
 Node module for delimiting and parsing delimited fields... 
@@ -159,3 +160,5 @@ Copyright © 2019, [Ericsson Schroeter](https://github.com/ekschro). Released un
 [code-climate-image]: https://api.codeclimate.com/v1/badges/78baced79207578bba1a/maintainability
 [codecov-url]: https://codecov.io/gh/ekschro/deliminator
 [codecov-image]: https://img.shields.io/codecov/c/github/ekschro/deliminator.svg?style=flat
+[package-quality-url]: https://packagequality.com/#?package=deliminator
+[package-quality-image]: https://npm.packagequality.com/shield/deliminator.svg?style=flat
