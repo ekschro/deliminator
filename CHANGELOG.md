@@ -108,3 +108,5 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/b48b4fb29676c9e9038644903dbfd3c39ce243d5">view commit &bull;</a> 3.0.0</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/afdc444c31931837962084ffaa4e85afea741ce8">view commit &bull;</a> Added Package quality sheild.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/3e309a82ad20d84ae4881db87e2fb694c9f2d854">view commit &bull;</a> 3.0.1</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/cb72e9c5f6d4ab78cc71e53df394580739dd2792">view commit &bull;</a> Update Changelog.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/d7c451c04845a8e302313948f7c3309eefcfbe0b">view commit &bull;</a> Updated and audited dependencies.</li> 
