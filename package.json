@@ -31,11 +31,11 @@
     "url": "https://github.com/ekschro/deliminator/issues"
   },
   "devDependencies": {
-    "codecov": "^3.2.0",
-    "eslint": "^5.15.3",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "jest": "^24.5.0"
+    "codecov": "^3.6.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.19.1",
+    "jest": "^24.9.0"
   },
   "homepage": "https://github.com/ekschro/deliminator",
   "repository": {
