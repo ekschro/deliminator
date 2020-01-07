@@ -110,3 +110,8 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/3e309a82ad20d84ae4881db87e2fb694c9f2d854">view commit &bull;</a> 3.0.1</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/cb72e9c5f6d4ab78cc71e53df394580739dd2792">view commit &bull;</a> Update Changelog.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/d7c451c04845a8e302313948f7c3309eefcfbe0b">view commit &bull;</a> Updated and audited dependencies.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/b00f69d612ea174731ba936eb7ebc753493f6ffa">view commit &bull;</a> Update Changelog.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/4db022dde9e7bb8066d72724535542c0a15db99a">view commit &bull;</a> 3.0.2</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/b822cd648001df82e8cc15487a08001ce1ec094b">view commit &bull;</a> Bump lodash from 4.17.11 to 4.17.15</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/dfe59e33d9708a4e04406b00eb5fabd653abea00">view commit &bull;</a> Updates...</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/087dd34fa585b1072a385ba3ecc90ac1c940cbf5">view commit &bull;</a> 3.0.3</li> 
