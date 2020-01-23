@@ -113,5 +113,9 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/b00f69d612ea174731ba936eb7ebc753493f6ffa">view commit &bull;</a> Update Changelog.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/4db022dde9e7bb8066d72724535542c0a15db99a">view commit &bull;</a> 3.0.2</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/b822cd648001df82e8cc15487a08001ce1ec094b">view commit &bull;</a> Bump lodash from 4.17.11 to 4.17.15</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/18534504f1d4a7715b7c752e5549b3d964c01423">view commit &bull;</a> Bump eslint-utils from 1.3.1 to 1.4.3</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/c3dd98a2d5f3ce2e240bd364241f62682976b984">view commit &bull;</a> Bump handlebars from 4.1.2 to 4.5.3</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/dfe59e33d9708a4e04406b00eb5fabd653abea00">view commit &bull;</a> Updates...</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/087dd34fa585b1072a385ba3ecc90ac1c940cbf5">view commit &bull;</a> 3.0.3</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/dc0468bdff933c5ff3046ba21f79cd9514f59309">view commit &bull;</a> Updated packages...</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/4a0cc580e1dcf02bb4cba239fc557652fede97a4">view commit &bull;</a> Copyright 2020...</li> 
