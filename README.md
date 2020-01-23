@@ -145,7 +145,7 @@ In the case that you created an asynchronous delimiter object, the results descr
 #### [@ekschro](https://github.com/ekschro)
 
 ## License 🔑
-Copyright © 2019, [Ericsson Schroeter](https://github.com/ekschro). Released under the [MIT License](LICENSE).
+Copyright © 2020, [Ericsson Schroeter](https://github.com/ekschro). Released under the [MIT License](LICENSE).
 
 [npm-image]: https://img.shields.io/npm/v/deliminator.svg?
 [npm-url]: https://www.npmjs.com/package/deliminator
