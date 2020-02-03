@@ -122,3 +122,5 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/b5229865aa53473b050d629e3de803e9ca80bae4">view commit &bull;</a> change log...</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/b90cc643b07d2e36d7e6671ea6a545a9ad77bd61">view commit &bull;</a> 3.0.4</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/f659f88d5284bb90a570db9161f28293e36ca506">view commit &bull;</a> Update dependencies.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/cfb37c71c17b3396267084b63757d16fa0569686">view commit &bull;</a> Updates.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/2b13ed03ac7e584d6e8c5440ff0dd8095c476a55">view commit &bull;</a> 3.0.5</li> 
