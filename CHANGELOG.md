@@ -119,3 +119,6 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/087dd34fa585b1072a385ba3ecc90ac1c940cbf5">view commit &bull;</a> 3.0.3</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/dc0468bdff933c5ff3046ba21f79cd9514f59309">view commit &bull;</a> Updated packages...</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/4a0cc580e1dcf02bb4cba239fc557652fede97a4">view commit &bull;</a> Copyright 2020...</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/b5229865aa53473b050d629e3de803e9ca80bae4">view commit &bull;</a> change log...</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/b90cc643b07d2e36d7e6671ea6a545a9ad77bd61">view commit &bull;</a> 3.0.4</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/f659f88d5284bb90a570db9161f28293e36ca506">view commit &bull;</a> Update dependencies.</li> 
