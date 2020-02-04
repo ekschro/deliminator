@@ -1,14 +1,14 @@
-const deliminator = require('../src/index');
+let deliminator = require('../src/index');
 
 test('Test delimit() method.  Should return "hello;;"',
   () => {
-    const d = deliminator.create(';;');
+    let d = deliminator.create(';;');
     expect(d.delimit('hello')).toBe('hello;;');
   });
 
 test('Test delimit() method.  Should return "hello;aehkadfhfworld;aehkadfhf!;aehkadfhf"',
   () => {
-    const d = deliminator.create(';aehkadfhf');
+    let d = deliminator.create(';aehkadfhf');
 
     let delimitedData = '';
 
@@ -21,7 +21,7 @@ test('Test delimit() method.  Should return "hello;aehkadfhfworld;aehkadfhf!;aeh
 
 test('Test dice() method.  Should return ["hello", "world", "!", ""]',
   () => {
-    const d = deliminator.create(';;;');
+    let d = deliminator.create(';;;');
 
     let delimitedData = '';
 
@@ -34,10 +34,10 @@ test('Test dice() method.  Should return ["hello", "world", "!", ""]',
 
 test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!"], pending: ""}',
   () => {
-    const d = deliminator.create(';;;');
+    let d = deliminator.create(';;;');
 
     let delimitedData = '';
-    const pending = '';
+    let pending = '';
 
     delimitedData += d.delimit('hello');
     delimitedData += d.delimit('world');
@@ -52,10 +52,10 @@ test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!
 
 test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!"], pending: "incomplete"}',
   () => {
-    const d = deliminator.create(';;;');
+    let d = deliminator.create(';;;');
 
     let delimitedData = '';
-    const pending = 'incomplete';
+    let pending = 'incomplete';
 
     delimitedData += d.delimit(' now completed');
     delimitedData += d.delimit('world');
@@ -70,10 +70,10 @@ test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!
 
 test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!"], pending: "incomplete data"}',
   () => {
-    const d = deliminator.create('$$$');
+    let d = deliminator.create('$$$');
 
     let delimitedData = '';
-    const pending = 'incomplete';
+    let pending = 'incomplete';
 
     delimitedData += d.delimit(' hello');
     delimitedData += d.delimit('world');
