@@ -1,36 +1,30 @@
-const { curry } = require('ramda');
+const delimData = d => data => `${data}${d}`;
 
-const delimData = curry((delimiter, data) => `${data}${delimiter}`);
-
-const diceData = curry((delimiter, data) => data.split(delimiter));
-
-const diceDataAsync = curry(async (delimiter, data) => data.split(delimiter));
+const diceData = d => data => data.split(d);
 
 const trimData = arr => ({ complete: arr.slice(0, arr.length - 1), pending: arr[arr.length - 1] });
 
+const diceAndTrimData = d => (data, chunks) => trimData(diceData(d)(`${chunks}${data}`));
+
+const diceDataAsync = d => async data => diceData(d)(data);
+
 const trimDataAsync = async arr => trimData(arr);
 
-const diceAndTrimData = curry(
-  (delimiter, data, chunks) => trimData(diceData(delimiter, `${chunks}${data}`)),
-);
+const diceAndTrimDataAsync = d => async (data, chunks) => {
+  const diced = await diceDataAsync(d)(`${chunks}${data}`);
+  return trimDataAsync(diced);
+};
 
-const diceAndTrimDataAsync = curry(
-  async (delimiter, data, chunks) => {
-    const diced = await diceDataAsync(delimiter, `${chunks}${data}`);
-    return trimDataAsync(diced);
-  }
-);
-
-const create = delimiter => ({
-  delimit: delimData(delimiter),
-  dice: diceData(delimiter),
-  diceAndTrim: diceAndTrimData(delimiter),
+const create = d => ({
+  delimit: delimData(d),
+  dice: diceData(d),
+  diceAndTrim: diceAndTrimData(d),
 });
 
-const createAsync = delimiter => ({
-  delimit: delimData(delimiter),
-  dice: diceDataAsync(delimiter),
-  diceAndTrim: diceAndTrimDataAsync(delimiter),
+const createAsync = d => ({
+  delimit: delimData(d),
+  dice: diceDataAsync(d),
+  diceAndTrim: diceAndTrimDataAsync(d),
 });
 
 module.exports = { create, createAsync };
