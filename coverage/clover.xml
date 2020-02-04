@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1564676265809" clover="3.2.0">
-  <project timestamp="1564676265809" name="All files">
-    <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9" elements="23" coveredelements="23" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
-    <file name="index.js" path="/Users/ericssonschroeter/Documents/Current-Projects/deliminator/src/index.js">
-      <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+<coverage generated="1580830841792" clover="3.2.0">
+  <project timestamp="1580830841793" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14" elements="27" coveredelements="27" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
+    <file name="index.js" path="/Users/ericssonschroeter/Documents/Current-Projects.nosync/deliminator/src/index.js">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="14"/>
       <line num="1" count="2" type="stmt"/>
       <line num="3" count="32" type="stmt"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="7" count="4" type="stmt"/>
+      <line num="5" count="9" type="stmt"/>
+      <line num="7" count="9" type="stmt"/>
       <line num="9" count="6" type="stmt"/>
       <line num="11" count="3" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="14" count="3" type="stmt"/>
-      <line num="17" count="2" type="stmt"/>
-      <line num="19" count="3" type="stmt"/>
-      <line num="20" count="3" type="stmt"/>
-      <line num="24" count="6" type="stmt"/>
-      <line num="30" count="6" type="stmt"/>
-      <line num="36" count="2" type="stmt"/>
+      <line num="13" count="6" type="stmt"/>
+      <line num="15" count="6" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="17" count="3" type="stmt"/>
+      <line num="20" count="6" type="stmt"/>
+      <line num="26" count="6" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

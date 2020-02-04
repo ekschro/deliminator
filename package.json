@@ -24,9 +24,7 @@
   "files": [
     "lib/index.js"
   ],
-  "dependencies": {
-    "ramda": "^0.26.1"
-  },
+  "dependencies": {},
   "bugs": {
     "url": "https://github.com/ekschro/deliminator/issues"
   },
