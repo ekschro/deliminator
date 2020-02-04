@@ -21,9 +21,9 @@ Node module for delimiting and parsing delimited fields...
 ```
 
 ## Features 🔥
-- **One dependency**, Ramda, for "practical functional" goodness
+- **Zero dependencies**
 - **Asynchronous and Synchronous** options
-- Builds for **Node.js 8,9,10,11** and beyond
+- Builds for **Node.js 6,8,9,10,11** and beyond
 
 ## Installation 🔧
 
@@ -71,8 +71,8 @@ const delim = deliminator.create(';');
 
 let waitingOn = '';
 
-t.on('connection', (socket) => {
-  socket.on('data', (data) => {
+t.on('connection', socket => {
+  socket.on('data', data => {
     const dataStr = data.toString();
 
     // Separate completed data from pending data
@@ -100,8 +100,8 @@ const delim = deliminator.createAsync(';');
 
 let waitingOn = '';
 
-t.on('connection', (socket) => {
-  socket.on('data', async (data) => {
+t.on('connection', socket => {
+  socket.on('data', async data => {
     const dataStr = data.toString();
 
     // Separate completed data from pending data
