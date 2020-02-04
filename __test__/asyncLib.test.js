@@ -1,14 +1,14 @@
-const deliminator = require('../lib/index');
+var deliminator = require('../lib/index');
 
 test('Test delimit() method.  Should return "hello;;"',
   () => {
-    const d = deliminator.createAsync(';;');
+    var d = deliminator.createAsync(';;');
     expect(d.delimit('hello')).toBe('hello;;');
   });
 
 test('Test delimit() method.  Should return "hello;aehkadfhfworld;aehkadfhf!;aehkadfhf"',
   () => {
-    const d = deliminator.createAsync(';aehkadfhf');
+    var d = deliminator.createAsync(';aehkadfhf');
 
     let delimitedData = '';
 
@@ -21,7 +21,7 @@ test('Test delimit() method.  Should return "hello;aehkadfhfworld;aehkadfhf!;aeh
 
 test('Test dice() method.  Should return ["hello", "world", "!", ""]',
   () => {
-    const d = deliminator.createAsync(';;;');
+    var d = deliminator.createAsync(';;;');
 
     let delimitedData = '';
 
@@ -34,10 +34,10 @@ test('Test dice() method.  Should return ["hello", "world", "!", ""]',
 
 test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!"], pending: ""}',
   () => {
-    const d = deliminator.createAsync(';;;');
+    var d = deliminator.createAsync(';;;');
 
     let delimitedData = '';
-    const pending = '';
+    var pending = '';
 
     delimitedData += d.delimit('hello');
     delimitedData += d.delimit('world');
@@ -52,10 +52,10 @@ test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!
 
 test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!"], pending: "incomplete"}',
   () => {
-    const d = deliminator.createAsync(';;;');
+    var d = deliminator.createAsync(';;;');
 
     let delimitedData = '';
-    const pending = 'incomplete';
+    var pending = 'incomplete';
 
     delimitedData += d.delimit(' now completed');
     delimitedData += d.delimit('world');
@@ -70,10 +70,10 @@ test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!
 
 test('Test diceAndTrim() method.  Should return {complete: ["hello", "world", "!"], pending: "incomplete data"}',
   () => {
-    const d = deliminator.createAsync('$$$');
+    var d = deliminator.createAsync('$$$');
 
     let delimitedData = '';
-    const pending = 'incomplete';
+    var pending = 'incomplete';
 
     delimitedData += d.delimit(' hello');
     delimitedData += d.delimit('world');

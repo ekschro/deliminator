@@ -124,3 +124,12 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/f659f88d5284bb90a570db9161f28293e36ca506">view commit &bull;</a> Update dependencies.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/cfb37c71c17b3396267084b63757d16fa0569686">view commit &bull;</a> Updates.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/2b13ed03ac7e584d6e8c5440ff0dd8095c476a55">view commit &bull;</a> 3.0.5</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/b78a57986521b5ad69bbf4ed4aa76212a5ba0b36">view commit &bull;</a> Updates.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/9240278862a0cbaaaa7f5fa27ab2a732824a0357">view commit &bull;</a> Remove the need for Ramda.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/27454faa430c2d8b59c6a97805a3cbfc891a2516">view commit &bull;</a> Refactoring.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/aa43668692cb3ceeda4561460079fc3f41589e66">view commit &bull;</a> Transpile for Node 6.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/2df7cf7de2cd9fcb2c379610ec520b1809329c53">view commit &bull;</a> Test tranpiled code in addtion to source.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/d3dd5f175bb8ada8d13dd14e1c25bfa6434b0a0f">view commit &bull;</a> Test for Node 6 in TravisCI.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/0b5b31c50920b2b4d7602a37031ecdbe419d45b2">view commit &bull;</a> Update Change log.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/ddb46ee77073bd22e45ec978cc86b5b4fdd0d8ef">view commit &bull;</a> 3.1.0</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/16a50aee22c2fb2ba526313810ea36194e5e7044">view commit &bull;</a> Updated README.md</li> 
