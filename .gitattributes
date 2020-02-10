@@ -8,3 +8,6 @@
 *.gif binary
 *.png binary
 *.jpeg binary
+
+* linguist-vendored
+*.js linguist-vendored=false
