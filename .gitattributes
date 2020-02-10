@@ -8,3 +8,7 @@
 *.gif binary
 *.png binary
 *.jpeg binary
+
+*.js linguist-detectable=true
+*.html linguist-detectable=false
+*.css linguist-detectable=false
