@@ -10,4 +10,4 @@
 *.jpeg binary
 
 * linguist-vendored
-*.js linguist-vendored=false
+*.js linguist-detectable=true
