@@ -156,3 +156,5 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/af49a45ebf2dddd78f5587def1e75e54a3db90a7">view commit &bull;</a> Bump acorn from 5.7.3 to 5.7.4</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/1564534178326cf72bbf915034f094e6984746d2">view commit &bull;</a> 3.2.0</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/9fa620af112294708d815aa610fd3908ef69efdd">view commit &bull;</a> Updates.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/3c7d62ea8f5e5e1df6271ec8f7156e3b22a963d0">view commit &bull;</a> Changelog.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/b77a7bb819ae0adf09df8e408e5a0fa27bb5fa8b">view commit &bull;</a> Update.</li> 
