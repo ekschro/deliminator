@@ -147,5 +147,12 @@
 <li> <a href="http://github.com/ekschro/deliminator/commit/0254321833e3286f01ba5f0f02a8262bf05be5d9">view commit &bull;</a> 3.1.1</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/aed55523d15b98bef4e4e60ba0e67d34c4447613">view commit &bull;</a> Github packages...</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/0b01673b655f7812a3aaff1a5634531b358619ec">view commit &bull;</a> 3.1.2</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/3ef1046b7d5aa065623393d52664f0ed5f51e511">view commit &bull;</a> Bump codecov from 3.6.4 to 3.6.5</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/8bd48c2e3e7cea9ebfd53d344ff284d8dba4dd0d">view commit &bull;</a> Updated dependencies.</li> 
 <li> <a href="http://github.com/ekschro/deliminator/commit/1584a4e1bc863c1695a9b29393aaead2c962e0e4">view commit &bull;</a> 3.1.2</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/f4a437fca418a28ed89eed0c80e1e5dd8ffbd70b">view commit &bull;</a> Changelog.</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/32e9bc3258f0a1b96d978b1abd7c082d295c702e">view commit &bull;</a> Create npmpublish.yml</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/51445952b426b3641bb79423020ba3b5a433d79a">view commit &bull;</a> Switch back to NPM...</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/af49a45ebf2dddd78f5587def1e75e54a3db90a7">view commit &bull;</a> Bump acorn from 5.7.3 to 5.7.4</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/1564534178326cf72bbf915034f094e6984746d2">view commit &bull;</a> 3.2.0</li> 
+<li> <a href="http://github.com/ekschro/deliminator/commit/9fa620af112294708d815aa610fd3908ef69efdd">view commit &bull;</a> Updates.</li> 
